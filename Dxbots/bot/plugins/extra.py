@@ -18,12 +18,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [Pᴀᴛʜᴀɴ](https://t.me/Flipkartlootzs)",
+                    text="I am Made By [Maharsh](https://t.me/movies_by_maharsh)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Oᴡɴᴇʀ💻", url=f"https://t.me/Flipkartlootzs")
+                                InlineKeyboardButton("Oᴡɴᴇʀ💻", url=f"https://t.me/movies_by_maharsh")
                             ]
                         ]
                     ),
@@ -43,7 +43,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Sᴜʙsᴄʀɪʙᴇ ❤️", url=f"https://youtube.com/@animefanshorts786?si=hUoJSAqOecIcPVKq")
+                                InlineKeyboardButton("Sᴜʙsᴄʀɪʙᴇ ❤️", url=f"https://t.me/movies_by_maharsh")
                             ]
                         ]
                     ),
