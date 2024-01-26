@@ -54,7 +54,7 @@ async def start(b, m):
         except UserNotParticipant:
              await DxStreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/72b80c41518846d8bc7e7.jpg",
+                photo="https://graph.org/file/89a2647c5868a758ca3f5.jpg",
                 caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -69,13 +69,13 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something went wrong</i> <b> <a href='https://t.me/LazyPrincessSupport'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>Something went wrong</i> <b> <a href='https://t.me/movies_by_maharsh'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
     await DxStreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/0c987464eaee927e2d3df.jpg",
+        photo ="https://graph.org/file/89a2647c5868a758ca3f5.jpg",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link.!',
         reply_markup=buttonz)
 
@@ -102,7 +102,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await DxStreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/0c987464eaee927e2d3df.jpg",
+                photo="https://graph.org/file/89a2647c5868a758ca3f5.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -117,7 +117,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/Flipkartlootzs).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/movies_by_maharsh).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -127,8 +127,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="https://t.me/Flipkartlootzs")],
-                [InlineKeyboardButton("💥 JOIN NOW", url="https://t.me/pathan_botz")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="https://t.me/movies_by_maharsh")],
+                [InlineKeyboardButton("💥 JOIN NOW", url="https://t.me/movies_by_maharsh")]
             ]
         )
     )
